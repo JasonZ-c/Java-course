@@ -1,0 +1,15 @@
+package come.in28minutes.oops.level2.interfaces;
+
+public class GameRunner {
+	public static void main(String[] args) {
+		Mario game=new Mario();
+		game.down();
+		game.up();
+		game.left();
+		game.right();
+		
+		Chess gameChess=new Chess();
+		gameChess.up();
+	}
+
+}

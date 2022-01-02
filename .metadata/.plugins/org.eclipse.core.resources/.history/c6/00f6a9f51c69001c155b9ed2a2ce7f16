@@ -1,0 +1,9 @@
+package com.learnJava.learnspringframework.sample.data;
+@Component
+class DataService{
+	
+	public List<Integer> retriveData(){
+		return Arrays.asList(1,3,44,55,666);
+	}
+	
+}

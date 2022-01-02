@@ -1,0 +1,18 @@
+package com.learnJava.learnspringframework.sample.enterprise;
+
+
+// sending response in the right format
+public class Controller {
+
+}
+
+//business logic
+class BusinessService{
+	
+}
+
+
+//getting data
+class DataService{
+	
+}

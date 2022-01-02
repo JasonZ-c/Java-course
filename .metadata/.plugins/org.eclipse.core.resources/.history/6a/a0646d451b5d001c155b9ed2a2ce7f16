@@ -1,0 +1,8 @@
+package com.in28minutes.oops;
+
+public class Book {
+	int numOfCopies=0;
+	void read() {
+		System.out.println("start");
+	}
+}

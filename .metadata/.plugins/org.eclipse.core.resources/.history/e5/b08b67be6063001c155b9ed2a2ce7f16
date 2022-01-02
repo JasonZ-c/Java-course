@@ -1,0 +1,10 @@
+package com.in28minutes.oops.level2;
+
+public class FanRunner {
+	public static void main(String[] args) {
+		Fan fan=new Fan("M1",1.2,"blue");
+		// wrong fan.toString();
+		System.out.println(fan);
+	}
+
+}

@@ -1,0 +1,21 @@
+package com.learnJava.learnspringframework;
+
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class LearnSpringFrameworkApplication {
+
+	public static void main(String[] args) {
+		//SpringApplication.run(LearnSpringFrameworkApplication.class, args);
+		
+		
+		//MarioGame game = new MarioGame();
+		
+		MarioGame game = new MarioGame();
+		
+		GameRunner runner = new GameRunner(game);
+		
+		runner.runGame();
+	}
+
+}
