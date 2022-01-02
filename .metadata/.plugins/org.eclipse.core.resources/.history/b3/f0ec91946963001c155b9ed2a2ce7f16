@@ -1,0 +1,14 @@
+package com.in28minutes.oops.level2;
+
+public class CustomerRunner {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Address homeAddress=new Address("3869 MIRAMAR","LA JOLLA","92037");
+		Customer customer=new Customer("Jason",homeAddress);
+		
+		System.out.println(customer.getHomeAddress());
+		
+	}
+
+}

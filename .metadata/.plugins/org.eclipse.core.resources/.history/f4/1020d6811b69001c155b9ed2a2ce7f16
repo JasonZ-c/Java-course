@@ -1,0 +1,34 @@
+package com.learnJava.learnspringframework.sample.enterprise;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+// sending response in the right format
+public class Controller {
+	//"/sum"=>100
+	@GetMapping("/sum")
+	public long displaySum() {
+		return 100;
+	}
+
+}
+
+//business logic
+class BusinessService{
+	@Autowired
+	public long calcSum() {
+		List<Integer> data = DataService.retriveData();
+		return data.stream().reduce(Integer::Sum).get();
+	}
+	
+}
+
+
+//getting data
+class DataService{
+	
+}

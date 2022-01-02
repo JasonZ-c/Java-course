@@ -1,0 +1,23 @@
+package com.learnJava.learnspringframework;
+
+public class GameRunner {
+	private SuperGame game;
+
+	public GameRunner(SuperGame game) {
+		// TODO Auto-generated constructor stub
+		this.game=game;
+	}
+	
+	public void runGame() {
+		game.up();
+		game.down();
+		game.left();
+		game.right();
+	}
+
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

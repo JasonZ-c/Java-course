@@ -1,0 +1,5 @@
+package come.in28minutes.oops.level2.interfaces;
+
+public class Chess {
+
+}

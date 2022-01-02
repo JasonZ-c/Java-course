@@ -1,0 +1,31 @@
+package com.in28minutes.oops;
+
+public class MotorBike {
+	private int speed; // default 0
+	
+	
+	
+	
+	public int getSpeed() {
+		return speed;
+	}
+
+
+
+
+	public void setSpeed(int speed) {
+		System.out.println(this.speed);
+		this.speed = speed;
+	}
+	
+	public void increaseSpeed(int howMuch) {
+		this.speed+=howMuch;
+	}
+
+
+
+
+	void start() {
+		System.out.println("bike started");
+	}
+}

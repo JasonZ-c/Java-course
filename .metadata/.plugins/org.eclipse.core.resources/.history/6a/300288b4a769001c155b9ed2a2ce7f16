@@ -1,0 +1,5 @@
+package com.learnJava.learnspringboot.courses.controller;
+
+public class CourseController {
+
+}

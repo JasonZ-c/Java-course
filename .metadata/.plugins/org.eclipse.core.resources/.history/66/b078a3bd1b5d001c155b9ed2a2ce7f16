@@ -1,0 +1,18 @@
+package com.in28minutes.oops;
+
+public class MotorBikeRunner {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		MotorBike toyota = new MotorBike();
+		MotorBike honda = new MotorBike();
+		
+		honda.start();
+		toyota.start();
+		
+		honda.setSpeed(100);
+		System.out.printf(honda.getSpeed());
+
+	}
+
+}

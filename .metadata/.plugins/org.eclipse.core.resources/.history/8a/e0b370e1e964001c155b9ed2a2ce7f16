@@ -1,0 +1,39 @@
+package come.in28minutes.oops.level2.interfaces;
+
+
+
+
+
+
+public class AnimalRunner {
+	
+	abstract class Animal{
+		abstract void bark();
+		
+	}
+	
+	class Dog extends Animal{
+
+		@Override
+		void bark() {
+			// TODO Auto-generated method stub
+			System.out.println("Bow Bow");
+		}
+		
+	}
+	
+	class Cat extends Animal{
+
+		@Override
+		void bark() {
+			// TODO Auto-generated method stub
+			System.out.println("Mew Mew");
+		}
+		
+	}
+	
+	public static void main(String[] args) {
+		
+	}
+
+}
